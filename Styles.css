@@ -1,0 +1,114 @@
+/* Global Variables */
+
+:root{
+    --gris:#ecf0f1;
+    --azul:#3498db;
+    --rojo:#e74c3c;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:#ffffff;
+}
+
+/* Navigation */
+
+nav{
+    background-color: var(--gris);
+    padding: 15px;
+    margin: 10px;
+    font-weight: bold;
+
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > ul > *  {
+  width: auto;
+}
+
+nav > ul > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-header {
+    align-self: flex-start;
+    font-size: 30px;
+    color: var(--azul);
+    
+}
+
+.nav-body {
+    width: 400px;
+}
+
+.nav-body > li > *{
+     font-size: 20px;
+     color: var(--azul);
+}
+
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-end {
+    width: 315px;
+    font-size: 20px;
+}
+
+.nav-botton-post {
+    background-color: var(--azul);
+    padding:15px;
+    text-decoration: none;
+    color: honeydew;
+}
+
+.nav-botton-login{
+    border: 3px solid var(--azul);
+    padding:10px;
+    font-size: 20px;
+    color: var(--azul);
+}
+
+.nav-botton-login:hover{
+    background-color: var(--azul);
+    color: #ffffff;
+}
+
+/* Landing */
+
+.landing{
+    display: flex;
+    margin: 0 auto;
+    height: 500px;
+    width: 98%;
+    background-color: green;
+}
+
+.landing > h1 {
+    width: 40%;
+    padding-top: 60px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+
+.landing > img {
+    width: 60%;
+}
+
